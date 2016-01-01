@@ -1,0 +1,12 @@
+{
+  "name": "msgserver",
+  "version": "1.0.0",
+  "author": "sunkey",
+  "description": "a message transfer server",
+  "script": {
+    "start": "index.js"
+  },
+  "dependencies": {
+    "socket.io": "^1.3.7"
+  }
+}
