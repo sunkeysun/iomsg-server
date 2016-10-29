@@ -1,7 +1,7 @@
 /**
  * 消息服务器入口文件
  *
- * @author: sunkey
+ * @author: sunkeysun
  */
 
 var MsgServer = function() {
@@ -67,7 +67,7 @@ var MsgServer = function() {
         var sortData = {};
         var signString = '';
         var sha1 = Crypto.createHash('sha1');
-
+		
         for (var key in data) {
             if (key != 'sign') {
                 keyArr.push(key);
@@ -75,7 +75,6 @@ var MsgServer = function() {
         }
 
         keyArr.sort();
-
 
         for (var i in keyArr) {
             signString += keyArr[i] + '=' + data[keyArr[i]] + '&';
