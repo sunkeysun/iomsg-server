@@ -1,7 +1,7 @@
 {
   "name": "iomsg-server",
   "version": "1.0.0",
-  "author": "sunkeysun",
+  "author": "Sunkey",
   "description": "a message transfer server",
   "script": {
     "start": "index.js"

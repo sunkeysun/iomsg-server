@@ -1,7 +1,7 @@
 /**
  * 消息服务器配置文件
  *
- * @author: sunkeysun
+ * @author: Sunkey
  */
 
 module.exports = {
