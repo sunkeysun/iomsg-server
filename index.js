@@ -4,21 +4,21 @@
  * @author: sunkeysun
  */
 
-var MsgServer = function() {
+const MsgServer = function() {
     // 加密模块
-    var Crypto = require('crypto');
+    const Crypto = require('crypto');
 
     // Url解析
-    var Url = require('url');
+    const Url = require('url');
 
     // 配置模块
-    var config = require('./config');
+    const config = require('./config');
 
     // Http 实例
-    var app = null;
+    let app = null;
 
     // Socket.io实例
-    var io = null;;
+    let io = null;;
 
     /**
      * 服务器实例初始化
