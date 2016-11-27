@@ -1,7 +1,7 @@
 /**
- * 消息服务器入口文件
+ * 信道服务器入口文件
  *
- * @author: sunkeysun
+ * @author: Sunkey
  */
 
 const MsgServer = function() {
